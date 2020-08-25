@@ -19,7 +19,7 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 
 import com.cxy.cardistinguish.R;
-import com.fy.baselibrary.plugin.PluginBaseActivity;
+import com.cxy.plugin.PluginBaseActivity;
 import com.plateid.CoreSetup;
 import com.plateid.controller.CameraManager;
 import com.plateid.controller.CommonTools;
@@ -51,10 +51,9 @@ public class PlateidCameraActivity extends PluginBaseActivity implements View.On
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-//                WindowManager.LayoutParams.FLAG_FULLSCREEN);
-//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         commonTools = new CommonTools();
         srcPoint = commonTools.getScreenSize(getContext());
@@ -77,7 +76,7 @@ public class PlateidCameraActivity extends PluginBaseActivity implements View.On
     public void initView() {
         //预览画面布局
         //必须放在onResume中，不然会出现Home键之后，再回到该APP，黑屏
-        mSurfaceView = new PlateidSurfaceView(getContext(), srcPoint, cameraManager, coreSetup);
+        mSurfaceView = new PlateidSurfaceView(getContext(), this, srcPoint, cameraManager, coreSetup);
         //识别框布局
         myView = new ViewfinderView(getContext(), srcPoint, true);
         //返回按钮图标布局

@@ -52,52 +52,12 @@ dependencies {
     implementation "com.android.support:support-annotations:$var.supportLibraryVersion"
     implementation "com.android.support.constraint:constraint-layout:$var.constraintLayout"
 
-    implementation "com.github.fy310518:fyLibrary:$var.baseLibrary"
-
-    api("com.jakewharton:butterknife:$var.butterknife") {
-        exclude group: 'com.android.support'
-    }
-
-    //    dagger2
-    api 'com.google.dagger:dagger:2.9'
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.9'
-
-    api 'com.squareup.okhttp3:okhttp:3.8.1'
-    api 'com.google.code.gson:gson:2.7'
-
-    //    rxjava
-    api 'io.reactivex.rxjava2:rxjava:2.1.16'
-    api 'io.reactivex.rxjava2:rxandroid:2.0.2'
-
-    //    retrofit2
-    api ('com.squareup.retrofit2:retrofit:2.3.0') {
-        exclude group: 'com.squareup.okhttp3'
-    }
-    api ('com.squareup.retrofit2:converter-gson:2.3.0'){
-        exclude group:'com.google.code.gson'
-        exclude group: 'com.squareup.okhttp3'
-    }
-
-    api ('com.squareup.retrofit2:adapter-rxjava2:2.3.0'){
-        exclude group: 'io.reactivex.rxjava2'
-    }
-    api ('com.squareup.okhttp3:logging-interceptor:3.10.0'){
-        exclude group: 'com.squareup.okhttp3'
-    }
-
-    //    glide
-    api 'com.github.bumptech.glide:glide:4.7.1'
-    api 'com.github.bumptech.glide:annotations:4.7.1'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
-    api ('com.github.bumptech.glide:okhttp3-integration:4.7.1'){
-        exclude group: 'com.squareup.okhttp3'
-    }
+//    implementation "com.github.fy310518:fyLibrary:$var.baseLibrary"
 
     //aop
-    api 'org.aspectj:aspectjrt:1.8.13'
+//    api 'org.aspectj:aspectjrt:1.8.13'
 
 
-    implementation files('libs/plate_id_sdk.jar')
-    implementation files('libs/android_auth.jar')
-    implementation files('libs/pki.jar')
+    implementation project(path: ':pluginlibrary')
+    implementation project(path: ':plate_id_sdk')
 }

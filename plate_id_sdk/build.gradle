@@ -1,5 +1,4 @@
-apply plugin: 'com.android.application'
-apply plugin: 'com.hujiang.android-aspectjx'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion var.compileSdkVersion
@@ -8,13 +7,11 @@ android {
     defaultConfig {
         minSdkVersion var.minSdkVersion
         targetSdkVersion var.targetSdkVersion
-
-//        applicationId "com.zjp.plugin"
-        applicationId "com.kernal.demo.plateid"
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
 
         ndk {
             abiFilters "armeabi"
@@ -28,35 +25,16 @@ android {
         }
     }
 
-    lintOptions {
-        abortOnError false
-        warning 'InvalidPackage'
-    }
-
-    compileOptions {
-        targetCompatibility 1.8
-        sourceCompatibility 1.8
-    }
-
-    packagingOptions {
-        exclude 'META-INF/DEPENDENCIES'
-        exclude 'META-INF/NOTICE'
-        exclude 'META-INF/LICENSE'
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/NOTICE.txt'
-        exclude 'publicsuffixes.gz'
-    }
-
-    aspectjx {
-        exclude 'com.google'
-    }
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
     implementation "com.android.support:appcompat-v7:$var.supportLibraryVersion"
     implementation "com.android.support.constraint:constraint-layout:$var.constraintLayout"
 
+    implementation files('libs/android_auth.jar')
+    implementation files('libs/pki.jar')
 
     implementation project(path: ':pluginlibrary')
 }

@@ -5,9 +5,6 @@ import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.fy.baselibrary.utils.AppUtils;
-import com.fy.baselibrary.utils.FileUtils;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -94,9 +91,6 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
             public void run() {
                 // 收集设备参数信息
 //                StringBuffer sb1 = AppUtils.collectPhoneInfo(new StringBuffer());
-                StringBuffer sb = AppUtils.dumpExceptionToSDCard(ex, new StringBuffer());
-//                // 保存日志文件
-                FileUtils.fileToInputContent("crash", "crash.txt", sb.toString());
                 Looper.prepare();
                 Toast.makeText(mContext, error, Toast.LENGTH_LONG).show();
                 Looper.loop();

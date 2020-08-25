@@ -1,12 +1,6 @@
 package com.zjp.plugin;
 
 import android.app.Application;
-import android.content.Context;
-
-import com.fy.baselibrary.application.BaseActivityLifecycleCallbacks;
-import com.fy.baselibrary.application.ioc.ConfigUtils;
-import com.fy.baselibrary.utils.ResUtils;
-import com.fy.baselibrary.utils.ScreenUtils;
 
 /**
  * description </p>
@@ -18,26 +12,7 @@ public class TestApp extends Application {
     public void onCreate() {
         super.onCreate();
         CrashHandler.getInstance().init(this);
-        initConfig(this);
-
-        initConfig();
     }
 
-    private void initConfig() {
-        int designWidth = (int) ResUtils.getMetaData(this, "rudeness_Adapter_Screen_width", 0);
-        ScreenUtils.setCustomDensity(this, designWidth);
-
-//        设置activity 生命周期回调
-        registerActivityLifecycleCallbacks(new BaseActivityLifecycleCallbacks());
-    }
-
-    private void initConfig(Context context) {
-        String cityHost1 = (String) ResUtils.getMetaData(this, "userHost", "");
-        new ConfigUtils.ConfigBiuder()
-                .setBaseFile("cxy", 0)
-                .setDEBUG(true)
-                .setBASE_URL(cityHost1)
-                .create(context);
-    }
 
 }

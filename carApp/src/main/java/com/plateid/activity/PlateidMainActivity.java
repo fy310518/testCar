@@ -1,8 +1,6 @@
 package com.plateid.activity;
 
-import android.Manifest;
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -24,7 +22,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.cxy.cardistinguish.R;
-import com.fy.baselibrary.aop.annotation.NeedPermission;
 import com.plateid.CoreSetup;
 import com.plateid.controller.CommonTools;
 import com.plateid.controller.ImportPicRecog;
@@ -73,9 +70,6 @@ public class PlateidMainActivity extends AppCompatActivity implements View.OnCli
         endRelativeLayout.setVisibility(View.GONE);
     }
 
-    @NeedPermission({Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE,
-            Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.READ_PHONE_STATE,
-            Manifest.permission.VIBRATE, Manifest.permission.INTERNET})
     @Override
     public void onClick(View v) {
         if (R.id.activationButton == v.getId()) {

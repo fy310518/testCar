@@ -15,9 +15,10 @@ import android.os.Message;
 import android.os.Vibrator;
 import android.widget.Toast;
 
-import com.plateid.CoreSetup;
+import com.cxy.plugin.PluginBaseActivity;
 import com.kernal.plateid.PlateCfgParameter;
 import com.kernal.plateid.PlateRecognitionParameter;
+import com.plateid.CoreSetup;
 import com.kernal.plateid.RecogService;
 import com.plateid.activity.PlateidCameraActivity;
 
@@ -34,6 +35,7 @@ public class PreviewCallback implements Camera.PreviewCallback {
      */
     private boolean isGetResult = false;
     private Activity activity;
+    private PluginBaseActivity pluginActivity;
     private int preWidth, preHeight;
     private CoreSetup coreSetup;
     private PlateRecognitionParameter prp = new PlateRecognitionParameter();
@@ -61,8 +63,9 @@ public class PreviewCallback implements Camera.PreviewCallback {
     private Runnable recogRunnable;
 
 
-    public PreviewCallback(Activity activity, Point prePoint, CoreSetup coreSetup) {
+    public PreviewCallback(Activity activity, PluginBaseActivity pluginActivity, Point prePoint, CoreSetup coreSetup) {
         this.activity = activity;
+        this.pluginActivity = pluginActivity;
         this.preWidth = prePoint.x;
         this.preHeight = prePoint.y;
         this.coreSetup = coreSetup;
@@ -81,10 +84,8 @@ public class PreviewCallback implements Camera.PreviewCallback {
             //快速识别、拍照识别---[快速、导入、拍照识别模式参数(0:快速、导入、拍照识别模式-----2:精准识别模式)]
             RecogService.recogModel = 0;
         }
-        Intent recogIntent = new Intent(activity,
-                RecogService.class);
-        activity.bindService(recogIntent, recogConn, Service.BIND_AUTO_CREATE);
 
+        pluginActivity.bindPservice("com.kernal.plateid.RecogService", null, recogConn, Service.BIND_AUTO_CREATE);
     }
 
     private ServiceConnection recogConn = new ServiceConnection() {
@@ -321,7 +322,6 @@ public class PreviewCallback implements Camera.PreviewCallback {
                     activity.unbindService(recogConn);
                 }
             }
-//            recogBinder.UninitPlateIDSDK();
             recogBinder = null;
         }
     }

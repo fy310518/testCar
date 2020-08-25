@@ -6,6 +6,7 @@ import android.graphics.Point;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+import com.cxy.plugin.PluginBaseActivity;
 import com.plateid.CoreSetup;
 import com.plateid.controller.CameraManager;
 import com.plateid.controller.PreviewCallback;
@@ -20,6 +21,7 @@ public class PlateidSurfaceView extends SurfaceView implements SurfaceHolder.Cal
 
     private static final int CAMERA_ID = 0;
     private Activity activity;
+    private PluginBaseActivity pluginActivity;
     private CameraManager mCameraManager;
     private Point srcPoint;
     private PreviewCallback callback;
@@ -27,9 +29,10 @@ public class PlateidSurfaceView extends SurfaceView implements SurfaceHolder.Cal
     private CoreSetup coreSetup;
 
 
-    public PlateidSurfaceView(Activity activity, final Point srcPoint, CameraManager cameraManager, CoreSetup coreSetup) {
+    public PlateidSurfaceView(Activity activity, PluginBaseActivity pluginActivity, final Point srcPoint, CameraManager cameraManager, CoreSetup coreSetup) {
         super(activity);
         this.activity = activity;
+        this.pluginActivity = pluginActivity;
         this.srcPoint = srcPoint;
         this.coreSetup = coreSetup;
         SurfaceHolder surfaceHolder = this.getHolder();
@@ -47,7 +50,7 @@ public class PlateidSurfaceView extends SurfaceView implements SurfaceHolder.Cal
             isSetCamera = false;
             mCameraManager.setUpCamera(surfaceHolder, srcPoint);
             if (mCameraManager.prePoint != null) {
-                callback = new PreviewCallback(activity, mCameraManager.prePoint, coreSetup);
+                callback = new PreviewCallback(activity, pluginActivity, mCameraManager.prePoint, coreSetup);
                 mCameraManager.camera.setPreviewCallback(callback);
             }
         }

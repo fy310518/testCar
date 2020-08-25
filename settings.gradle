@@ -1,5 +1,8 @@
 //include ':lib_plugin'
-include ':orderfood'
+//include ':orderfood'
+
 include ':app'
 include ':carApp'
+include ':pluginlibrary'
+include ':plate_id_sdk'
 rootProject.name = "Plugin"
