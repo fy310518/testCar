@@ -14,7 +14,7 @@ MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\cxy\.gradle
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\470b9bb36f12dcfb248eaa959401d3cb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b250adeb48f8bc65d5961bf5fcd13d9a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:2:1-38:12
+MERGED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:2:1-38:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\562f5987ecbc14f682d18b5eb14cec9b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\eb7d1c4fad78052c71c885c19b809b45\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\33baa67a8d9ec3d439b0fd0f8f17909d\AndroidManifest.xml:17:1-22:12
@@ -74,8 +74,8 @@ application
 ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:21:5-53:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:9:5-20
-MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:11:5-36:19
-MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:11:5-36:19
+MERGED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:11:5-36:19
+MERGED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:11:5-36:19
 	android:supportsRtl
 		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:26:9-35
 	android:label
@@ -156,8 +156,8 @@ MERGED from [com.android.support:support-compat:27.1.1] C:\Users\cxy\.gradle\cac
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b250adeb48f8bc65d5961bf5fcd13d9a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:7:5-9:41
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\562f5987ecbc14f682d18b5eb14cec9b\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\562f5987ecbc14f682d18b5eb14cec9b\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\eb7d1c4fad78052c71c885c19b809b45\AndroidManifest.xml:20:5-44
@@ -177,18 +177,18 @@ INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifes
 		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
 		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
 provider#com.fy.baselibrary.base.BaseFileProvider
-ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:16:9-24:20
+ADDED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:16:9-24:20
 	android:grantUriPermissions
-		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:20:13-47
+		ADDED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:20:13-47
 	android:authorities
-		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:18:13-60
+		ADDED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:18:13-60
 	android:exported
-		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:19:13-37
+		ADDED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:17:13-68
+		ADDED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:17:13-68
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:21:13-23:58
+ADDED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:21:13-23:58
 	android:resource
-		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:23:17-55
+		ADDED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:23:17-55
 	android:name
-		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:22:17-67
+		ADDED from [com.github.fy310518:fyLibrary:1.6.88] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.88.aar\c6bdf60035d6518e2e5bcf045990831a\AndroidManifest.xml:22:17-67

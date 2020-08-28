@@ -42,6 +42,6 @@ ext {
 
             butterknife          : "8.5.0",
 
-            baseLibrary          : "1.6.87"
+            baseLibrary          : "1.6.88"
     ]
 }
