@@ -1,5 +1,5 @@
 <resources>
-    <string name="cxy_car_distinguish">快号通开发包</string>
+    <string name="app_name">PluginLibrary</string>
     <string name="company_name">Beijing Wintone Technology Co.</string>
 
     <string name="active_button">序列号激活</string>

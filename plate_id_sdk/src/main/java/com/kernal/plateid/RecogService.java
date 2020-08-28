@@ -3,9 +3,6 @@ package com.kernal.plateid;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.res.Resources;
 import android.os.Binder;
 import android.os.Build;
 import android.os.Environment;
@@ -18,7 +15,7 @@ import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.cxy.plugin.service.PluginBaseService;
+import com.fy.baselibrary.plugin.service.PluginBaseService;
 import com.kernal.lisence.CDKey;
 import com.kernal.lisence.CTelephoneInfo;
 import com.kernal.lisence.Common;
@@ -607,32 +604,17 @@ public class RecogService extends PluginBaseService {
                     checkx = 0;
                 } else if (mafr.isCheckPRJMode(productType)) {
                     checkx = -10600;
-                    String packageName = getPackageName();
-                    String app_name = null;
-
-                    try {
-                        PackageInfo pkg = null;
-                        try {
-                            pkg = getPackageManager().getPackageInfo(getApplicationContext().getPackageName(), 0);
-                        } catch (PackageManager.NameNotFoundException var16) {
-                        }
-
-                        int cxy_car_distinguish = getResources().getIdentifier("cxy_car_distinguish", "string", getPackageName());
-                        app_name = getResources().getString(cxy_car_distinguish);
-                    } catch (Resources.NotFoundException var17) {
-                        var17.printStackTrace();
-                    }
-
-                    String company_name = null;
-
-                    try {
-                        int id_company_name = getResources().getIdentifier("company_name", "string", getPackageName());
-                        company_name = getResources().getString(id_company_name);
-                    } catch (Resources.NotFoundException var15) {
-                        var15.printStackTrace();
-                        sendPlateMessage(2);
-                        checkx = -10608;
-                    }
+                    String packageName = "com.kernal.demo.plateid";//正常应该是 代码获取 应用id
+                    String app_name = "快号通开发包";//正常应该是 代码获取 应用名称
+                    String company_name = "Beijing Wintone Technology Co.";//正常应该是 代码获取 company_name 授权码
+//                    try {
+//                        int id_company_name = getResources().getIdentifier("company_name", "string", getPackageName());
+//                        company_name = getResources().getString(id_company_name);
+//                    } catch (Resources.NotFoundException var15) {
+//                        var15.printStackTrace();
+//                        sendPlateMessage(2);
+//                        checkx = -10608;
+//                    }
 
                     if (app_name != null && company_name != null) {
                         checkx = mafr.isCheckPRJOK(productType, prp.devCode, packageName, app_name, company_name, FileUtils.getVersionFileInfos(getResources()));
@@ -640,7 +622,6 @@ public class RecogService extends PluginBaseService {
                             if (MathRandom.PercentageRandom() == 5) {
                                 sendPlateMessage(3);
                             }
-
                             checkx = 0;
                         }
                     }

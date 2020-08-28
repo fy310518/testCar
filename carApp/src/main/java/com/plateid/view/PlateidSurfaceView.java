@@ -6,7 +6,7 @@ import android.graphics.Point;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-import com.cxy.plugin.PluginBaseActivity;
+import com.fy.baselibrary.plugin.activity.PluginBaseActivity;
 import com.plateid.CoreSetup;
 import com.plateid.controller.CameraManager;
 import com.plateid.controller.PreviewCallback;

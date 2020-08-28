@@ -17,9 +17,8 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
-
 import com.cxy.cardistinguish.R;
-import com.cxy.plugin.PluginBaseActivity;
+import com.fy.baselibrary.plugin.activity.PluginBaseActivity;
 import com.plateid.CoreSetup;
 import com.plateid.controller.CameraManager;
 import com.plateid.controller.CommonTools;
@@ -51,9 +50,9 @@ public class PlateidCameraActivity extends PluginBaseActivity implements View.On
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().requestFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+//        getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         commonTools = new CommonTools();
         srcPoint = commonTools.getScreenSize(getContext());
@@ -174,7 +173,7 @@ public class PlateidCameraActivity extends PluginBaseActivity implements View.On
     public void onClick(View v) {
         if (v == backBtn) {
             //返回键点击事件
-            getContext().finish();
+            finish();
         } else if (v == flashBtn) {
             //闪光灯键点击事件
             mSurfaceView.controlFlash();

@@ -3,6 +3,8 @@ package com.kernal.plateid;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
+import com.fy.baselibrary.plugin.PluginManager;
+import com.fy.baselibrary.plugin.SoFileUtils;
 import com.kernal.lisence.DeviceFP;
 
 /**
@@ -12,7 +14,9 @@ import com.kernal.lisence.DeviceFP;
 public class PlateIDAPI {
     static {
         Log.e("plateid", "开始加载动态库");
-        System.loadLibrary("THPlateID");
+//        System.loadLibrary("THPlateID");
+        String soPath = SoFileUtils.getSoPath(PluginManager.getInstance().getContext());
+        System.load(soPath + "/libTHPlateID.so");
         Log.e("plateid", "动态库加载完成");
     }
 

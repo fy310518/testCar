@@ -1,14 +1,17 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+
 buildscript {
     repositories {
         google()
         jcenter()
+        
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:3.2.0"
-
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+
         classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.0'
         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.8'
     }
@@ -28,10 +31,10 @@ task clean(type: Delete) {
 
 ext {
     var = [
-            compileSdkVersion    : 29,
+            compileSdkVersion    : 27,
             buildToolsVersion    : "28.0.3",
 
-            minSdkVersion        : 19,
+            minSdkVersion        : 21,
             targetSdkVersion     : 29,
 
             supportLibraryVersion: "27.1.1",
@@ -39,6 +42,6 @@ ext {
 
             butterknife          : "8.5.0",
 
-            baseLibrary          : "1.6.81"
+            baseLibrary          : "1.6.87"
     ]
 }

@@ -15,7 +15,7 @@ import android.os.Message;
 import android.os.Vibrator;
 import android.widget.Toast;
 
-import com.cxy.plugin.PluginBaseActivity;
+import com.fy.baselibrary.plugin.activity.PluginBaseActivity;
 import com.kernal.plateid.PlateCfgParameter;
 import com.kernal.plateid.PlateRecognitionParameter;
 import com.plateid.CoreSetup;
@@ -232,7 +232,7 @@ public class PreviewCallback implements Camera.PreviewCallback {
             }
         } else if (coreSetup.takePicMode && isTakePicOnclick) {
             //拍照识别
-            ((PlateidCameraActivity) activity).startAnim();
+            ((PlateidCameraActivity) pluginActivity).startAnim();
             if (recogBinder != null)
                 recogResult = recogBinder.doRecogDetail(prp);
             if (recogBinder != null) {
@@ -271,7 +271,7 @@ public class PreviewCallback implements Camera.PreviewCallback {
             //释放服务
             releaseService();
             //回传结果
-            ((PlateidCameraActivity) activity).getResultFinish(recogRuslte, prp.plateIDCfg.bRotate, savePicturePath);
+            ((PlateidCameraActivity) pluginActivity).getResultFinish(recogRuslte, prp.plateIDCfg.bRotate, savePicturePath);
         }
     }
 
@@ -319,7 +319,7 @@ public class PreviewCallback implements Camera.PreviewCallback {
         if (recogBinder != null) {
             synchronized (recogBinder) {
                 if (recogBinder != null) {
-                    activity.unbindService(recogConn);
+                    pluginActivity.unbindService(recogConn);
                 }
             }
             recogBinder = null;

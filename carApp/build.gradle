@@ -8,14 +8,16 @@ android {
     defaultConfig {
         minSdkVersion var.minSdkVersion
         targetSdkVersion var.targetSdkVersion
-        applicationId "com.kernal.demo.plateid"
+
+        applicationId "com.zjp.plugin"
+//        applicationId "com.kernal.demo.plateid"
 
         versionCode 1
         versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         ndk {
-            abiFilters "armeabi"
+            abiFilters "arm64-v8a"
         }
     }
     buildTypes {
@@ -52,12 +54,11 @@ dependencies {
     implementation "com.android.support:support-annotations:$var.supportLibraryVersion"
     implementation "com.android.support.constraint:constraint-layout:$var.constraintLayout"
 
-//    implementation "com.github.fy310518:fyLibrary:$var.baseLibrary"
+    implementation "com.github.fy310518:fyLibrary:$var.baseLibrary"
 
     //aop
-//    api 'org.aspectj:aspectjrt:1.8.13'
+    implementation 'org.aspectj:aspectjrt:1.8.13'
 
 
-    implementation project(path: ':pluginlibrary')
     implementation project(path: ':plate_id_sdk')
 }

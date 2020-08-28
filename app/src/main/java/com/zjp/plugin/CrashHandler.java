@@ -22,7 +22,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
     // 系统默认的 UncaughtException 处理类
     private Thread.UncaughtExceptionHandler mDefaultHandler;
     // 用来存储设备信息和异常信息
-    private Map<String, String> infos = new HashMap<String, String>();
+    private Map<String, String> infos = new HashMap<>();
     // 用来显示Toast中的信息
     private static String error = "服务器正在维护中，请稍后再试";
 

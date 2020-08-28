@@ -1,0 +1,194 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+MERGED from [:plate_id_sdk] D:\Android\WorkSpace\carDistinguish\plate_id_sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0c078b2626fe37bcc02fc87d792f6a9c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2029f685d4d86a6c3d5a67500aa8289e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\cac27daac972970432db809325e61303\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4345e9ac4a67cbb73f28e06f8ca3fdba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a4ae482f995c51d28ab4731e43aa7a0d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\247ae4b9e56b30601119da7d61245007\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\470b9bb36f12dcfb248eaa959401d3cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b250adeb48f8bc65d5961bf5fcd13d9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:2:1-38:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\562f5987ecbc14f682d18b5eb14cec9b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\eb7d1c4fad78052c71c885c19b809b45\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\33baa67a8d9ec3d439b0fd0f8f17909d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\52209b4eec3aa0e333b00a8d01b68037\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+	package
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:4:5-37
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:1-55:12
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:10:22-63
+uses-permission#android.permission.CAMERA
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:11:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:13:5-60
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:13:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:14:19-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:18:22-64
+application
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:21:5-53:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:9:5-20
+MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:11:5-36:19
+MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:11:5-36:19
+	android:supportsRtl
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:24:9-41
+	tools:ignore
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:28:9-48
+	android:roundIcon
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:27:9-43
+meta-data#rudeness_Adapter_Screen_width
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:30:9-32:35
+	android:value
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:32:13-32
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:31:13-57
+meta-data#android.max_aspect
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:34:9-36:35
+	android:value
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:36:13-32
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:35:13-46
+activity#com.plateid.activity.PlateidMainActivity
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:38:9-45:20
+	android:screenOrientation
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:39:13-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:43:27-74
+activity#com.plateid.activity.PlateidCameraActivity
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:48:13-70
+service#com.kernal.plateid.RecogService
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:51:9-67
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:51:18-64
+service#com.kernal.plateid.AuthService
+ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:52:9-66
+	android:name
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml:52:18-63
+uses-sdk
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+MERGED from [:plate_id_sdk] D:\Android\WorkSpace\carDistinguish\plate_id_sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:plate_id_sdk] D:\Android\WorkSpace\carDistinguish\plate_id_sdk\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0c078b2626fe37bcc02fc87d792f6a9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0c078b2626fe37bcc02fc87d792f6a9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2029f685d4d86a6c3d5a67500aa8289e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2029f685d4d86a6c3d5a67500aa8289e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\cac27daac972970432db809325e61303\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\cac27daac972970432db809325e61303\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4345e9ac4a67cbb73f28e06f8ca3fdba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\4345e9ac4a67cbb73f28e06f8ca3fdba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a4ae482f995c51d28ab4731e43aa7a0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a4ae482f995c51d28ab4731e43aa7a0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\247ae4b9e56b30601119da7d61245007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\247ae4b9e56b30601119da7d61245007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\470b9bb36f12dcfb248eaa959401d3cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\470b9bb36f12dcfb248eaa959401d3cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b250adeb48f8bc65d5961bf5fcd13d9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b250adeb48f8bc65d5961bf5fcd13d9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4afa1c73c4377c2938678e8af1b6cd7a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\562f5987ecbc14f682d18b5eb14cec9b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\562f5987ecbc14f682d18b5eb14cec9b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\eb7d1c4fad78052c71c885c19b809b45\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\eb7d1c4fad78052c71c885c19b809b45\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\33baa67a8d9ec3d439b0fd0f8f17909d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\33baa67a8d9ec3d439b0fd0f8f17909d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\52209b4eec3aa0e333b00a8d01b68037\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\52209b4eec3aa0e333b00a8d01b68037\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+		ADDED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\WorkSpace\carDistinguish\carApp\src\main\AndroidManifest.xml
+provider#com.fy.baselibrary.base.BaseFileProvider
+ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:16:9-24:20
+	android:grantUriPermissions
+		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:20:13-47
+	android:authorities
+		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:18:13-60
+	android:exported
+		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:17:13-68
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:21:13-23:58
+	android:resource
+		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:23:17-55
+	android:name
+		ADDED from [com.github.fy310518:fyLibrary:1.6.87] C:\Users\cxy\.gradle\caches\transforms-1\files-1.1\fyLibrary-1.6.87.aar\d0bb4ca39082b2a0e66d6ad89508fc90\AndroidManifest.xml:22:17-67
